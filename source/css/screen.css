@@ -806,6 +806,13 @@ pre .chunk {
    7. Pagination - Tools to let you flick between pages
    ========================================================================== */
 
+.static-pages-link {
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+
 /* The main wrapper for our pagination links */
 .pagination {
     position: relative;
