@@ -809,8 +809,12 @@ pre .chunk {
 .static-pages-link {
     text-decoration: none;
     display: inline-block;
-    width: 200px;
+    width: 160px;
     text-align: center;
+    border-bottom: 1px solid #fff;
+}
+.static-pages-link:hover {
+    border-bottom: 1px solid #9EABB3;
 }
 
 /* The main wrapper for our pagination links */
